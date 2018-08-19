@@ -14,3 +14,11 @@ function nameToAttributes (drivers) {
   });
 
 }
+
+
+function attributesToPhrase(drivers) {
+  return drivers.map(function (driverElement) {
+    return {driverElement.name is from driverElement.hometown};
+  });
+
+}
